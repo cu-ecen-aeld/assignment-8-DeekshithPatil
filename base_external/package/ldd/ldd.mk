@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-LDD_VERSION = '23396643569d8820e044d76bbce5a3d83cb8f260'
+LDD_VERSION = '3f712e3f035546e2c34c6bb461a8888bfbd0ab54'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
@@ -14,8 +14,8 @@ LDD_SITE = 'git@github.com:cu-ecen-aeld/assignment-7-DeekshithPatil.git'
 LDD_SITE_METHOD = git
 LDD_GIT_SUBMODULES = YES
 
-LDD_MODULES_SUBDIRS = misc-modules/
-LDD_MODULES_SUBDIRS += scull/
+LDD_MODULE_SUBDIRS = misc-modules/
+LDD_MODULE_SUBDIRS += scull/
 
 # define LDD_BUILD_CMDS
 # 	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/misc-modules
